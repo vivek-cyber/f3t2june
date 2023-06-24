@@ -1,0 +1,92 @@
+body
+{
+    width: 100vw;
+    background-color: rgb(31, 29, 29);
+    color: antiquewhite;
+    margin: 0%;
+}
+
+header
+{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 40px;
+    font-style: italic;
+    font-size: 30px;
+    border-bottom: 1px solid antiquewhite ;
+}
+.hp2>button
+{
+    background-color: rgb(31, 29, 29);
+    border: 0cm;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: large;
+}
+signup
+{
+    padding: 30px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+#input
+{
+    border-bottom: 1px solid antiquewhite;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#input>input
+{
+    background-color: rgb(31, 29, 29);
+    width:700px;
+    border:0cm;
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
+#input>input:focus
+{
+    outline: none;
+}
+#message
+{
+    padding: 30px 0;
+}
+#signup
+{
+    width: 150px;
+    padding: 10px 25px;
+    font-size:large;
+}
+
+/* temporary */
+
+
+
+/* #signuppart
+{
+    display: none;
+
+} */
+
+
+#mainprofile
+{
+    display: none;
+}
+
+
+#mainprofile
+{
+margin-left: 30px;
+font-size: 30px;
+}
+#mainprofile>h1{
+    margin-bottom: 0%;
+}
+
+#mainprofile>div{
+    padding-bottom: 20px;
+}
